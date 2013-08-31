@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmPubLite/EmPubLite.iml" filepath="$PROJECT_DIR$/EmPubLite/EmPubLite.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmPubLiteProject.iml" filepath="$PROJECT_DIR$/EmPubLiteProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmPubLite_Android.iml" filepath="$PROJECT_DIR$/EmPubLite_Android.iml" />
     </modules>
   </component>
 </project>
