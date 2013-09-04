@@ -18,10 +18,10 @@ android {
 
     defaultConfig {
         minSdkVersion 9
-        targetSdkVersion 15
+        targetSdkVersion 18
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:13.0.0'
+    compile 'com.android.support:support-v4:13.0.0','com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
 }

@@ -10,16 +10,25 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6c2a4b-e277-4d1c-9dee-33881e9474d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EmPubLite/src/main/res/menu/options.xml" />
-      <change type="DELETED" beforePath="C:\Users\jcammisuli\AndroidStudioProjects\EmPubLite_Android\EmPubLite\src\main\res\menu\em_pub_lite.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="DELETED" beforePath="C:\Users\jcammisuli\AndroidStudioProjects\EmPubLite_Android\EmPubLite\build\res\all\debug\menu\em_pub_lite.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/source/buildConfig/debug/ca/cammisuli/empublite/BuildConfig.java" afterPath="$PROJECT_DIR$/EmPubLite/build/source/buildConfig/debug/ca/cammisuli/empublite/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/EmPubLite.iml" afterPath="$PROJECT_DIR$/EmPubLite/EmPubLite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java" afterPath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite_Android.iml" afterPath="$PROJECT_DIR$/EmPubLite_Android.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java" afterPath="$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build.gradle" afterPath="$PROJECT_DIR$/EmPubLite/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/EmPubLite/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmPubLite.iws" />
@@ -43,7 +52,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -80,6 +88,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -91,23 +100,21 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="-0.0" vertical-offset="272" max-vertical-offset="442">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="40" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <folding>
-                <element signature="e#639#657#0" expanded="true" />
-              </folding>
+            <state line="14" column="43" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +122,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="9" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -124,7 +131,7 @@
       <file leaf-file-name="EmPubLiteActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="678" selection-end="678" vertical-scroll-proportion="0.454343" vertical-offset="0" max-vertical-offset="898">
+            <state line="16" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="731">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +142,8 @@
       <file leaf-file-name="options.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/menu/options.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="39" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding>
-                <element signature="e#261#275#0" expanded="true" />
-              </folding>
+            <state line="13" column="39" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,10 +167,27 @@
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
+        <entry key="EmPubLite_Android/" value="false" />
       </map>
     </option>
     <option name="availableProjects">
       <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="AndroidStudioProjects" />
+              <option name="path" value="$PROJECT_DIR$/.." />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="AndroidStudioProjects" />
+                <option name="path" value="$PROJECT_DIR$/.." />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -190,8 +212,9 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="C:\Users\jcammisuli\AndroidStudioProjects" value="1377866963886" />
         <entry key="C:\Users\jcammisuli\AndroidStudioProjects\EmPubLiteProject" value="1377866965785" />
-        <entry key="C:\Users\jcammisuli\AndroidStudioProjects\EmPubLite_Android" value="1378236117425" />
+        <entry key="C:\Users\jcammisuli\AndroidStudioProjects\EmPubLite_Android" value="1378310580016" />
       </map>
     </option>
   </component>
@@ -201,9 +224,10 @@
         <option value="$PROJECT_DIR$/EmPubLite/src/main/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/res/menu/options.xml" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java" />
+        <option value="$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/EmPubLite/build.gradle" />
       </list>
     </option>
   </component>
@@ -316,92 +340,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -418,15 +356,15 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="232" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="232" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../actionbarsherlock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries/actionbarsherlock" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="906" />
@@ -435,20 +373,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="225" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -645,30 +582,30 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34101382" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3214683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18356457" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18356457" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.67099565" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17916666" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31336406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18356457" sideWeight="0.6785317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3214683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23713236" sideWeight="0.6705069" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -692,48 +629,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="272" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.3855569" vertical-offset="127" max-vertical-offset="969" />
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/values/dimens.xml">
@@ -753,30 +655,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../actionbarsherlock/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/EmPubLite.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="88" selection-start="1806" selection-end="1895" vertical-scroll-proportion="0.5111359" vertical-offset="51" max-vertical-offset="1394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding>
-            <element signature="e#639#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/build/res/all/debug/menu/em_pub_lite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="98" selection-start="342" selection-end="342" vertical-scroll-proportion="0.116838485" vertical-offset="0" max-vertical-offset="873">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/drawable-hdpi/ic_launcher.png">
@@ -793,16 +674,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/menu/options.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <element signature="e#261#275#0" expanded="true" />
-          </folding>
+        <state line="13" column="39" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="346" selection-end="346" vertical-scroll-proportion="0.55829227" vertical-offset="0" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3276" column="46" selection-start="192139" selection-end="192139" vertical-scroll-proportion="0.6537037" vertical-offset="55254" max-vertical-offset="55794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="0.03074141" vertical-offset="0" max-vertical-offset="553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="43" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/build/source/r/debug/com/actionbarsherlock/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="232" selection-end="232" vertical-scroll-proportion="-11.17485" vertical-offset="9382" max-vertical-offset="10217">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="678" selection-end="678" vertical-scroll-proportion="0.454343" vertical-offset="0" max-vertical-offset="898">
+        <state line="16" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="731">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -826,7 +754,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android-Gradle (EmPubLite)|Android-Gradle</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -861,12 +789,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EmPubLiteProject</last-edited>
+          <last-edited>EmPubLite</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
