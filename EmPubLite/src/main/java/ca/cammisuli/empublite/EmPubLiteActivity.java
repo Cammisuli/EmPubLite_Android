@@ -1,23 +1,37 @@
 package ca.cammisuli.empublite;
 
 import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
 
-public class EmPubLiteActivity extends Activity {
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
+
+public class EmPubLiteActivity extends SherlockFragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main); //TODO: something
+        setContentView(R.layout.main);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.em_pub_lite, menu);
-        return true;
+        new MenuInflater(this).inflate(R.menu.options, menu);
+
+        return (super.onCreateOptionsMenu(menu));
     }
-    
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                return (true);
+            case R.id.about:
+                return (true);
+            case R.id.help:
+                return (true);
+        }
+        return (super.onOptionsItemSelected(item));
+    }
 }
