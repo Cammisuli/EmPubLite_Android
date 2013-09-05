@@ -1,5 +1,6 @@
 package ca.cammisuli.empublite;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -28,8 +29,14 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
             case android.R.id.home:
                 return (true);
             case R.id.about:
+                Intent i = new Intent(this, SimpleContentActivity.class);
+                startActivity(i);
+
                 return (true);
             case R.id.help:
+                i = new Intent(this, SimpleContentActivity.class);
+                startActivity(i);
+
                 return (true);
         }
         return (super.onOptionsItemSelected(item));

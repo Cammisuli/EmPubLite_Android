@@ -884,6 +884,7 @@ containing a value of this type.
         public static final int abs__textButton=0x7f060013;
         public static final int abs__title=0x7f06001b;
         public static final int abs__up=0x7f06000f;
+        public static final int action_settings=0x7f060035;
         public static final int disableHome=0x7f060008;
         public static final int edit_query=0x7f060026;
         public static final int help=0x7f060033;
@@ -930,9 +931,11 @@ containing a value of this type.
         public static final int main=0x7f030015;
         public static final int sherlock_spinner_dropdown_item=0x7f030016;
         public static final int sherlock_spinner_item=0x7f030017;
+        public static final int simple_content_activity=0x7f030018;
     }
     public static final class menu {
         public static final int options=0x7f0b0000;
+        public static final int simple_content=0x7f0b0001;
     }
     public static final class string {
         /**  From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/strings.xml 
@@ -957,7 +960,9 @@ containing a value of this type.
          */
         public static final int action_settings=0x7f09000e;
         public static final int app_name=0x7f09000f;
-        public static final int help=0x7f090010;
+        public static final int hello_world=0x7f090010;
+        public static final int help=0x7f090011;
+        public static final int title_activity_simple_content=0x7f090012;
     }
     public static final class style {
         /**  From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/styles.xml 
