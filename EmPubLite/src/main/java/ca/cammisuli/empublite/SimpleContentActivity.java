@@ -10,7 +10,7 @@ public class SimpleContentActivity extends SherlockFragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.simple_content_activity);
+        setContentView(R.layout.simple_content_activity);//
     }
 
 }
