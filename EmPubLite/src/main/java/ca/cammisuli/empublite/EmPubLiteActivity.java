@@ -2,6 +2,8 @@ package ca.cammisuli.empublite;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
+import android.view.View;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
@@ -10,10 +12,19 @@ import com.actionbarsherlock.view.MenuItem;
 
 public class EmPubLiteActivity extends SherlockFragmentActivity {
 
+    private ViewPager pager = null;
+    private ContentsAdapter adapter = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        pager = (ViewPager)findViewById(R.id.pager);
+        adapter = new ContentsAdapter(this);
+        pager.setAdapter(adapter);
+        findViewById(R.id.progressBar).setVisibility(View.GONE);
+        findViewById(R.id.pager).setVisibility(View.VISIBLE);
+
     }
 
     @Override
