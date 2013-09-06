@@ -14,14 +14,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6c2a4b-e277-4d1c-9dee-33881e9474d0" name="Default" comment="test&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/EmPubLite.iml" afterPath="$PROJECT_DIR$/EmPubLite/EmPubLite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java" afterPath="$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v14/values.xml" />
+    <list default="true" id="4a6c2a4b-e277-4d1c-9dee-33881e9474d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/AbstractContentFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/WebViewFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmPubLite.iws" />
@@ -97,7 +92,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="-0.0" vertical-offset="272" max-vertical-offset="442">
+            <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -106,7 +101,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="748">
+            <state line="3" column="27" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -121,10 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmPubLiteActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmPubLiteActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="56" selection-start="420" selection-end="420" vertical-scroll-proportion="0.38062283" vertical-offset="1" max-vertical-offset="850">
+            <state line="7" column="47" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebViewFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/WebViewFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="-10.2" vertical-offset="306" max-vertical-offset="1649">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,20 +136,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComActionbarsherlockActionbarsherlock440_aar.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/ComActionbarsherlockActionbarsherlock440_aar.xml">
+      <file leaf-file-name="AbstractContentFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/AbstractContentFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/menu/options.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="39" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
-              <folding />
+            <state line="15" column="5" selection-start="447" selection-end="447" vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="578">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,6 +213,8 @@
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/SimpleContentActivity.java" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/WebViewFragment.java" />
+        <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/AbstractContentFragment.java" />
       </list>
     </option>
   </component>
@@ -251,7 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -452,40 +450,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -690,7 +657,11 @@
       <created>1378236351533</created>
       <updated>1378236351533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="configurations&#10;&#10;">
+      <created>1378388057518</created>
+      <updated>1378388057518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -727,7 +698,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18356457" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18356457" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.67099565" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -742,6 +712,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23692636" sideWeight="0.6703663" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -757,23 +728,14 @@
     <MESSAGE value="Revert&#10;" />
     <MESSAGE value="Tutorial 3&#10;" />
     <MESSAGE value="test&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="test&#10;" />
+    <MESSAGE value="configurations&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurations&#10;&#10;" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.42045453" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EmPubLite/EmPubLite.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="88" selection-start="1806" selection-end="1895" vertical-scroll-proportion="0.5111359" vertical-offset="51" max-vertical-offset="1394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/res/menu/options.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="39" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
@@ -798,9 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3276" column="46" selection-start="192139" selection-end="192139" vertical-scroll-proportion="0.6537037" vertical-offset="55254" max-vertical-offset="55794">
-          <folding />
-        </state>
+        <state line="3276" column="46" selection-start="192139" selection-end="192139" vertical-scroll-proportion="0.6537037" vertical-offset="55254" max-vertical-offset="55794" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/build/source/r/debug/com/actionbarsherlock/R.java">
@@ -860,14 +820,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/android_support_v4.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="420" selection-end="420" vertical-scroll-proportion="0.38062283" vertical-offset="1" max-vertical-offset="850">
+        <state line="7" column="47" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/WebViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="-10.2" vertical-offset="306" max-vertical-offset="1649">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/AbstractContentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="447" selection-end="447" vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="578">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
