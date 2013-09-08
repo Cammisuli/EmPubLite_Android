@@ -14,17 +14,24 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
 
     private ViewPager pager = null;
     private ContentsAdapter adapter = null;
+    private static final String MODEL = "model";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        pager = (ViewPager)findViewById(R.id.pager);
-        adapter = new ContentsAdapter(this);
-        pager.setAdapter(adapter);
-        findViewById(R.id.progressBar).setVisibility(View.GONE);
-        findViewById(R.id.pager).setVisibility(View.VISIBLE);
 
+        pager = (ViewPager)findViewById(R.id.pager);
+
+        if(getSupportFragmentManager().findFragmentByTag(MODEL)==null)
+        {
+            getSupportFragmentManager().beginTransaction().add(new ModelFragment(), MODEL).commit();
+        }
+
+        setContentView(R.layout.main);
+
+        pager = (ViewPager)findViewById(R.id.pager);
+
+        getSupportActionBar().setHomeButtonEnabled(true);
     }
 
     @Override
@@ -38,18 +45,29 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
+                pager.setCurrentItem(0, false);
                 return (true);
             case R.id.about:
                 Intent i = new Intent(this, SimpleContentActivity.class);
+                i.putExtra(SimpleContentActivity.EXTRA_FILE, "file:///android_asset/misc/about.html");
                 startActivity(i);
 
                 return (true);
             case R.id.help:
                 i = new Intent(this, SimpleContentActivity.class);
+                i.putExtra(SimpleContentActivity.EXTRA_FILE, "file:///android_asset/misc/help.html");
                 startActivity(i);
 
                 return (true);
         }
         return (super.onOptionsItemSelected(item));
+    }
+
+    void setupPager(BookContents contents)
+    {
+        adapter = new ContentsAdapter(this, contents);
+        pager.setAdapter(adapter);
+        findViewById(R.id.progressBar).setVisibility(View.GONE);
+        findViewById(R.id.pager).setVisibility(View.VISIBLE);
     }
 }

@@ -10,17 +10,23 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
  */
 public class ContentsAdapter extends FragmentStatePagerAdapter {
 
-    public ContentsAdapter(SherlockFragmentActivity ctxt) {
+    private BookContents contents = null;
+
+    public ContentsAdapter(SherlockFragmentActivity ctxt, BookContents contents) {
         super(ctxt.getSupportFragmentManager());
+
+        this.contents = contents;
     }
 
     @Override
-    public Fragment getItem(int i) {
-        return null;
+    public Fragment getItem(int position) {
+        String path = contents.getChapterFile(position);
+
+        return (SimpleContentFragment.newInstance("file:///android_assets/book/"+path));
     }
 
     @Override
     public int getCount() {
-        return 0;
+        return(contents.getChapterCount());
     }
 }

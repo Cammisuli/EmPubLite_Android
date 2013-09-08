@@ -16,6 +16,10 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center" />
-
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
 </RelativeLayout>
-<!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/layout/main.xml -->
+<!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/layout/main.xml -->
