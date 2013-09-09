@@ -33,18 +33,7 @@
             android:name="ca.cammisuli.empublite.SimpleContentActivity"
             android:label="@string/title_activity_simple_content" >
         </activity>
-        <activity
-            android:name="ca.cammisuli.empublite.ItemListActivity"
-            android:label="@string/title_item_list" >
-        </activity>
-        <activity
-            android:name="ca.cammisuli.empublite.ItemDetailActivity"
-            android:label="@string/title_item_detail"
-            android:parentActivityName=".ItemListActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ItemListActivity" />
-        </activity>
+        <activity android:name=".Preferences"></activity>
     </application>
     <!--  -->
 

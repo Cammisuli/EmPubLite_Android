@@ -2,9 +2,11 @@ package ca.cammisuli.empublite;
 
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.actionbarsherlock.app.SherlockFragment;
@@ -21,7 +23,8 @@ import java.io.InputStreamReader;
 public class ModelFragment extends SherlockFragment {
     private BookContents contents = null;
     private ContentsLoadTask contentsTask = null;
-
+    private SharedPreferences prefs = null;
+    private PrefsLoadTask prefsTask = null;
     @Override
     public void onActivityCreated(Bundle savedInstanceState)
     {
@@ -33,12 +36,18 @@ public class ModelFragment extends SherlockFragment {
 
     synchronized private void deliverModel()
     {
-        if(contents!=null)
+        if(prefs != null && contents!= null)
         {
-            ((EmPubLiteActivity)getActivity()).setupPager(contents);
+            ((EmPubLiteActivity)getActivity()).setupPager(prefs, contents);
         }
         else
         {
+            if(prefs == null && prefsTask == null)
+            {
+                prefsTask = new PrefsLoadTask();
+                executeAsyncTask(prefsTask, getActivity().getApplicationContext());
+            }
+
             if (contents == null && contentsTask == null)
             {
                 contentsTask = new ContentsLoadTask();
@@ -102,6 +111,28 @@ public class ModelFragment extends SherlockFragment {
             {
                 Log.e(getClass().getSimpleName(), "Exception loading contents", e);
             }
+        }
+    }
+
+    private class PrefsLoadTask extends AsyncTask<Context, Void, Void>
+    {
+        SharedPreferences localPrefs = null;
+
+        @Override
+        protected Void doInBackground(Context... ctxt)
+        {
+            localPrefs = PreferenceManager.getDefaultSharedPreferences(ctxt[0]);
+            localPrefs.getAll();
+
+            return (null);
+        }
+
+        @Override
+        public void onPostExecute(Void arg0)
+        {
+            ModelFragment.this.prefs=localPrefs;
+            ModelFragment.this.prefsTask = null;
+            deliverModel();
         }
     }
 }
