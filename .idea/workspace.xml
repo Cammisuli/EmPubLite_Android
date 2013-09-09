@@ -15,7 +15,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6c2a4b-e277-4d1c-9dee-33881e9474d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ContentsAdapter.java" afterPath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ContentsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" afterPath="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java" afterPath="$PROJECT_DIR$/EmPubLite/build/source/r/debug/ca/cammisuli/empublite/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/EmPubLite/build/res/all/debug/values-v14/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmPubLite.iws" />
@@ -39,7 +45,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -76,8 +81,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java" line="67" class="ca.cammisuli.empublite.EmPubLiteActivity" package="ca.cammisuli.empublite">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" line="39" class="ca.cammisuli.empublite.ModelFragment" package="ca.cammisuli.empublite">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -107,52 +112,8 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" line="37" class="ca.cammisuli.empublite.ModelFragment" package="ca.cammisuli.empublite">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" line="39" class="ca.cammisuli.empublite.ModelFragment" package="ca.cammisuli.empublite">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" line="42" class="ca.cammisuli.empublite.ModelFragment" package="ca.cammisuli.empublite">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -162,10 +123,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmPubLiteActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EmPubLiteActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1207">
+            <state line="57" column="65" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.4641638" vertical-offset="561" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -174,10 +135,8 @@
       <file leaf-file-name="ModelFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="1441" max-vertical-offset="1938">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="91" column="17" selection-start="2443" selection-end="2443" vertical-scroll-proportion="-13.6" vertical-offset="986" max-vertical-offset="1734">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,10 +144,8 @@
       <file leaf-file-name="SimpleContentActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/SimpleContentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="97" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="18" column="97" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,7 +153,7 @@
       <file leaf-file-name="WebViewFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/WebViewFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1513">
+            <state line="33" column="9" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -205,30 +162,17 @@
       <file leaf-file-name="BookContents.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/BookContents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="32" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentsAdapter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ContentsAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="72" selection-start="695" selection-end="708" vertical-scroll-proportion="0.63297874" vertical-offset="0" max-vertical-offset="595">
+            <state line="12" column="32" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractContentFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/AbstractContentFragment.java">
+      <file leaf-file-name="ContentsAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ContentsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="285" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="561">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="23" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -568,16 +512,16 @@
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/SimpleContentActivity.java" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/BookContents.java" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java" />
-        <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" />
         <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ContentsAdapter.java" />
+        <option value="$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -621,6 +565,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -761,83 +706,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmPubLite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="232" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="232" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="232" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries/actionbarsherlock" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
@@ -848,22 +732,21 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="225" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -1068,17 +951,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23627685" sideWeight="0.67973125" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33448276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33407325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39844617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3214683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18356457" sideWeight="0.28698555" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1090,12 +972,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1872705" sideWeight="0.6781609" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3218391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18676628" sideWeight="0.6792453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3207547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23627685" sideWeight="0.67973125" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1138,9 +1021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/assets/book/0.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/assets/book/0.htm">
@@ -1157,16 +1038,12 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/view/ViewPager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="26" selection-start="4820" selection-end="4830" vertical-scroll-proportion="0.33266532" vertical-offset="1585" max-vertical-offset="5933">
-          <folding />
-        </state>
+        <state line="104" column="26" selection-start="4820" selection-end="4830" vertical-scroll-proportion="0.33266532" vertical-offset="1585" max-vertical-offset="5933" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/assets/book/contents.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="53" selection-end="53" vertical-scroll-proportion="0.059753954" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="2" column="15" selection-start="53" selection-end="53" vertical-scroll-proportion="0.059753954" vertical-offset="0" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/SimpleContentFragment.java">
@@ -1176,46 +1053,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/FragmentStatePagerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="52" selection-start="908" selection-end="908" vertical-scroll-proportion="0.34957626" vertical-offset="107" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/BookContents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="32" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="680">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/AbstractContentFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="285" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1938">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/SimpleContentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="97" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="27" selection-start="285" selection-end="292" vertical-scroll-proportion="0.16472869" vertical-offset="0" max-vertical-offset="516">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,16 +1074,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
+    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/SimpleContentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1207">
+        <state line="18" column="97" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/FragmentStatePagerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="-0.030303031" vertical-offset="102" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ContentsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="72" selection-start="695" selection-end="708" vertical-scroll-proportion="0.63297874" vertical-offset="0" max-vertical-offset="595">
+        <state line="23" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/ModelFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="17" selection-start="2443" selection-end="2443" vertical-scroll-proportion="-13.6" vertical-offset="986" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmPubLite/src/main/java/ca/cammisuli/empublite/EmPubLiteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="65" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.4641638" vertical-offset="561" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>

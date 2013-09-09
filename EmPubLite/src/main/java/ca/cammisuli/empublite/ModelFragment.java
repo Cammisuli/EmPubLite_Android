@@ -96,6 +96,7 @@ public class ModelFragment extends SherlockFragment {
             {
                 ModelFragment.this.contents = localContents;
                 ModelFragment.this.contentsTask = null;
+                deliverModel();
             }
             else
             {

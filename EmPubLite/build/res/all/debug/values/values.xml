@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
     <attr name="background" format="reference|color" />
     <attr name="backgroundSplit" format="reference|color" />
     <attr name="divider" format="reference" />
@@ -481,10 +481,10 @@
     <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
     <dimen name="abs__search_view_preferred_width">320dip</dimen>
     <dimen name="abs__search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
     <item name="abs__action_menu_divider" type="id"/>
     <item name="abs__action_menu_presenter" type="id"/>
     <item name="abs__home" type="id"/>
@@ -493,9 +493,9 @@
     <item name="abs__up" type="id"/>
 
     <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/strings.xml -->
     <string name="about">About</string>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
     <string name="abs__action_bar_home_description">Navigate home</string>
     <string name="abs__action_bar_up_description">Navigate up</string>
     <string name="abs__action_menu_overflow_description">More options</string>
@@ -509,7 +509,7 @@
     <string name="abs__searchview_description_voice">Voice search</string>
     <string name="abs__shareactionprovider_share_with">Share with</string>
     <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g id="application_name" example="Bluetooth">%s</ns1:g></string>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">EmPub Lite</string>
     <string name="hello_world">Hello world!</string>
@@ -517,7 +517,7 @@
     <string name="title_activity_simple_content">SimpleContentActivity</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="title_item_list">Items</string>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
@@ -529,7 +529,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values/values.xml -->
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
