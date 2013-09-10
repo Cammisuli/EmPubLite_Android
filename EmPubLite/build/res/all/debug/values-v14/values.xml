@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values-v14/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
     </style>
-    <!-- From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-v14/values.xml -->
+    <!-- From: file:/C:/Users/Jon/AndroidStudioProjects/EmPubLite_Android/EmPubLite/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/res/values-v14/values.xml -->
     <style name="Sherlock.__Theme" parent="android:Theme.Holo" />
 
     <style name="Sherlock.__Theme.DarkActionBar" parent="android:Theme.Holo.Light.DarkActionBar">
