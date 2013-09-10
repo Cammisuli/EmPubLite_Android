@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
@@ -46,6 +47,7 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
         {
             int position=pager.getCurrentItem();
             prefs.edit().putInt(PREF_LAST_POSITION, position).apply();
+            Toast.makeText(getApplicationContext(), "" + prefs.getInt(PREF_LAST_POSITION, 0), Toast.LENGTH_LONG).show();
         }
         super.onPause();
     }
@@ -57,6 +59,8 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
         {
             pager.setKeepScreenOn(prefs.getBoolean(PREF_KEEP_SCREEN_ON, false));
         }
+
+        super.onResume();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -86,6 +90,11 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
             case R.id.settings:
                 startActivity(new Intent(this, Preferences.class));
                 return (true);
+            case R.id.notes:
+                i = new Intent(this, NoteActivity.class);
+                i.putExtra(NoteActivity.EXTRA_POSITION, pager.getCurrentItem());
+                startActivity(i);
+                return (true);
         }
         return (super.onOptionsItemSelected(item));
     }
@@ -93,6 +102,8 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
     void setupPager(SharedPreferences prefs, BookContents contents)
     {
         this.prefs = prefs;
+//        Toast.makeText(getApplicationContext(), "" + prefs.getBoolean(PREF_SAVE_LAST_POSITION, false), Toast.LENGTH_LONG).show();
+//        Toast.makeText(getApplicationContext(), "" + prefs.getInt(PREF_LAST_POSITION, 0), Toast.LENGTH_LONG).show();
         if (prefs.getBoolean(PREF_SAVE_LAST_POSITION, false))
         {
             pager.setCurrentItem(prefs.getInt(PREF_LAST_POSITION, 0));

@@ -27,4 +27,10 @@ public class NoteActivity extends SherlockFragmentActivity {
             }
         }
     }
+
+    void closeNotes()
+    {
+        finish();
+    }
+
 }

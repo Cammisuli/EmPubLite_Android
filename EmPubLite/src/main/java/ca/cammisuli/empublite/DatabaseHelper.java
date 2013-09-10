@@ -55,6 +55,21 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         void setNote(String note);
     }
 
+    void getNoteAsync(int position, NoteListener listener)
+    {
+        ModelFragment.executeAsyncTask(new GetNoteTask(listener), position);
+    }
+
+    void saveNoteAsync(int position, String note)
+    {
+        ModelFragment.executeAsyncTask(new SaveNoteTask(position, note));
+    }
+
+    void deleteNoteAsync(int position)
+    {
+        ModelFragment.executeAsyncTask(new DeleteNoteTask(), position);
+    }
+
     private class GetNoteTask extends AsyncTask<Integer, Void, String>
     {
         private NoteListener listener = null;
@@ -107,6 +122,19 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             String[] args = {String.valueOf(position), note};
 
             getWritableDatabase().execSQL("INSERT OR REPLACE INTO notes (position, prose) VALUES (?, ?)", args);
+
+            return(null);
+        }
+    }
+
+    private class DeleteNoteTask extends AsyncTask<Integer, Void, Void>
+    {
+        @Override
+        protected Void doInBackground(Integer... params)
+        {
+            String[] args = {params[0].toString()};
+
+            getWritableDatabase().execSQL("DELETE FROM notes WHERE position=?", args);
 
             return(null);
         }
