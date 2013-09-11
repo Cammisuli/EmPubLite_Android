@@ -1,5 +1,6 @@
 package ca.cammisuli.empublite;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
@@ -33,4 +34,12 @@ public class NoteActivity extends SherlockFragmentActivity {
         finish();
     }
 
+    public void sendNotes(String s) {
+        Intent i = new Intent(Intent.ACTION_SEND);
+
+        i.setType("text/plain");
+        i.putExtra(Intent.EXTRA_TEXT, s);
+
+        startActivity(Intent.createChooser(i, getString(R.string.share_title)));
+    }
 }

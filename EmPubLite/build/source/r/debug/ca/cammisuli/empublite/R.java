@@ -842,7 +842,7 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020070;
     }
     public static final class id {
-        public static final int about=0x7f070039;
+        public static final int about=0x7f07003a;
         public static final int abs__action_bar=0x7f070020;
         public static final int abs__action_bar_container=0x7f07001f;
         public static final int abs__action_bar_subtitle=0x7f070011;
@@ -884,20 +884,21 @@ containing a value of this type.
         public static final int abs__textButton=0x7f070013;
         public static final int abs__title=0x7f07001b;
         public static final int abs__up=0x7f07000f;
-        public static final int action_settings=0x7f07003b;
-        public static final int delete=0x7f070036;
+        public static final int action_settings=0x7f07003c;
+        public static final int delete=0x7f070037;
         public static final int disableHome=0x7f070008;
         public static final int edit_query=0x7f070026;
         public static final int editor=0x7f070032;
-        public static final int help=0x7f070038;
+        public static final int help=0x7f070039;
         public static final int homeAsUp=0x7f070005;
         public static final int listMode=0x7f070001;
         public static final int normal=0x7f070000;
-        public static final int notes=0x7f070037;
+        public static final int notes=0x7f070038;
         public static final int pager=0x7f070034;
         public static final int progressBar=0x7f070033;
         public static final int save=0x7f070035;
-        public static final int settings=0x7f07003a;
+        public static final int settings=0x7f07003b;
+        public static final int share=0x7f070036;
         public static final int showCustom=0x7f070007;
         public static final int showHome=0x7f070004;
         public static final int showTitle=0x7f070006;
@@ -982,9 +983,11 @@ containing a value of this type.
         public static final int preftitle=0x7f0a001b;
         public static final int save=0x7f0a001c;
         public static final int settings=0x7f0a001d;
-        public static final int title_activity_simple_content=0x7f0a001e;
-        public static final int title_item_detail=0x7f0a001f;
-        public static final int title_item_list=0x7f0a0020;
+        public static final int share=0x7f0a001e;
+        public static final int share_title=0x7f0a001f;
+        public static final int title_activity_simple_content=0x7f0a0020;
+        public static final int title_item_detail=0x7f0a0021;
+        public static final int title_item_list=0x7f0a0022;
     }
     public static final class style {
         /**  From: file:/C:/Users/jcammisuli/AndroidStudioProjects/EmPubLite_Android/EmPubLite/src/main/res/values/styles.xml 

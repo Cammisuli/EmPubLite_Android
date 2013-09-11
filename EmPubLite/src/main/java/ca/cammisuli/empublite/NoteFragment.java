@@ -64,6 +64,10 @@ public class NoteFragment extends SherlockFragment implements DatabaseHelper.Not
             ((NoteActivity)getActivity()).closeNotes();
             return (true);
         }
+        else if (item.getItemId() == R.id.share) {
+            ((NoteActivity)getActivity()).sendNotes(editor.getText().toString());
+            return (true);
+        }
 
         return (super.onOptionsItemSelected(item));
     }
