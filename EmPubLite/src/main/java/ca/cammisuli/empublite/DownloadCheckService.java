@@ -26,8 +26,8 @@ public class DownloadCheckService extends IntentService {
 
     private static final String UPDATE_URL = "http://misc.commonsware.com/empublite-update.json";
     private static final String UPDATE_BASEDIR = "updates";
-    private static final String UPDATE_FILENAME = "book.zip";
-    private static final String PREF_PENDING_UPDATE = "pendingUpdateDir";
+    public static final String UPDATE_FILENAME = "book.zip";
+    public static final String PREF_PENDING_UPDATE = "pendingUpdateDir";
 
     public DownloadCheckService() {
         super("DownloadCheckService");

@@ -40,6 +40,7 @@
         <activity android:name=".Preferences"></activity>
         <activity android:name=".NoteActivity"></activity>
         <service android:name=".DownloadCheckService"></service>
+        <service android:name=".DownloadInstallService"></service>
         <receiver android:name=".DownloadCompleteReceiver">
             <intent-filter>
                 <action

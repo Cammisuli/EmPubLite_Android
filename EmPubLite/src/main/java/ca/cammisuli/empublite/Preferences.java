@@ -10,8 +10,12 @@ import java.util.List;
 
 /**
  * Created by jcammisuli on 09/09/13.
+ *
+ * This creates the settings activity. If it is on a tablet, two panes are shown, if it's on a phone, only one pane will show
  */
 public class Preferences extends SherlockPreferenceActivity {
+
+    private boolean needResource = false;
 
     @SuppressWarnings("deprecation")
     @Override
@@ -19,7 +23,7 @@ public class Preferences extends SherlockPreferenceActivity {
     {
         super.onCreate(savedInstanceState);
 
-        if(Build.VERSION.SDK_INT<Build.VERSION_CODES.HONEYCOMB)
+        if(needResource || Build.VERSION.SDK_INT<Build.VERSION_CODES.HONEYCOMB)
         {
             addPreferencesFromResource(R.xml.pref_display);
         }
@@ -29,6 +33,14 @@ public class Preferences extends SherlockPreferenceActivity {
     @Override
     public void onBuildHeaders(List<Header> target)
     {
-        loadHeadersFromResource(R.xml.preference_headers, target);
+        if (onIsHidingHeaders() || !onIsMultiPane())
+        {
+            needResource = true;
+        }
+        else
+        {
+            loadHeadersFromResource(R.xml.preference_headers, target);
+        }
+
     }
 }

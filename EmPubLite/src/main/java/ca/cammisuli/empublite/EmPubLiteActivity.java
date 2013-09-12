@@ -1,11 +1,13 @@
 package ca.cammisuli.empublite;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
@@ -21,6 +23,7 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
     private static final String PREF_LAST_POSITION = "lastPosition";
     private static final String PREF_SAVE_LAST_POSITION = "saveLastPosition";
     private static final String PREF_KEEP_SCREEN_ON = "keepScreenOn";
+    private ModelFragment model = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +33,12 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
 
         if(getSupportFragmentManager().findFragmentByTag(MODEL)==null)
         {
-            getSupportFragmentManager().beginTransaction().add(new ModelFragment(), MODEL).commit();
+            model = new ModelFragment();
+            getSupportFragmentManager().beginTransaction().add(model, MODEL).commit();
+        }
+        else
+        {
+            model = (ModelFragment)getSupportFragmentManager().findFragmentByTag(MODEL);
         }
 
         setContentView(R.layout.main);
@@ -43,25 +51,32 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
     @Override
     public void onPause()
     {
+        super.onPause();
+
         if (prefs!=null)
         {
             int position=pager.getCurrentItem();
             prefs.edit().putInt(PREF_LAST_POSITION, position).apply();
-            Toast.makeText(getApplicationContext(), "" + prefs.getInt(PREF_LAST_POSITION, 0), Toast.LENGTH_LONG).show();
         }
-        super.onPause();
+
+        unregisterReceiver(onUpdate);
     }
 
     @Override
     public void onResume()
     {
+        super.onResume();
+
         if (prefs != null)
         {
             pager.setKeepScreenOn(prefs.getBoolean(PREF_KEEP_SCREEN_ON, false));
         }
 
-        super.onResume();
+        IntentFilter f = new IntentFilter(DownloadInstallService.ACTION_UPDATE_READY);
+        f.setPriority(1000);
+        registerReceiver(onUpdate, f);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         new MenuInflater(this).inflate(R.menu.options, menu);
@@ -119,4 +134,12 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
         findViewById(R.id.progressBar).setVisibility(View.GONE);
         findViewById(R.id.pager).setVisibility(View.VISIBLE);
     }
+
+    private BroadcastReceiver onUpdate = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            model.updateBook();
+            abortBroadcast();
+        }
+    };
 }
