@@ -19,10 +19,12 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import com.commonsware.cwac.wakeful.WakefulIntentService;
+
 /**
  * Created by jcammisuli on 11/09/13.
  */
-public class DownloadCheckService extends IntentService {
+public class DownloadCheckService extends WakefulIntentService {
 
     private static final String UPDATE_URL = "http://misc.commonsware.com/empublite-update.json";
     private static final String UPDATE_BASEDIR = "updates";
@@ -34,7 +36,7 @@ public class DownloadCheckService extends IntentService {
     }
 
     @Override
-    protected void onHandleIntent(Intent intent) {
+    protected void doWakefulWork(Intent intent) {
         BufferedReader reader = null;
 
         try {

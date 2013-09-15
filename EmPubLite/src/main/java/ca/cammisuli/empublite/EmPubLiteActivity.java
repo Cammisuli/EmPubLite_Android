@@ -13,6 +13,7 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.commonsware.cwac.wakeful.WakefulIntentService;
 
 public class EmPubLiteActivity extends SherlockFragmentActivity {
 
@@ -112,7 +113,7 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
                 startActivity(i);
                 return (true);
             case R.id.update:
-                startService(new Intent(this, DownloadCheckService.class));
+                WakefulIntentService.sendWakefulWork(this, DownloadCheckService.class);
                 return (true);
         }
         return (super.onOptionsItemSelected(item));

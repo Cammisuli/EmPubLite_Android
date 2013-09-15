@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Environment;
 
+import com.commonsware.cwac.wakeful.WakefulIntentService;
+
 import java.io.File;
 
 /**
@@ -17,7 +19,7 @@ public class DownloadCompleteReceiver extends BroadcastReceiver {
 
         if (update.exists())
         {
-            context.startService(new Intent(context, DownloadInstallService.class));
+            WakefulIntentService.sendWakefulWork(context, DownloadInstallService.class);
         }
     }
 }

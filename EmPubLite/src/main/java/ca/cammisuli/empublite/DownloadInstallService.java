@@ -17,10 +17,12 @@ import java.io.InputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+import com.commonsware.cwac.wakeful.WakefulIntentService;
+
 /**
  * Created by jcammisuli on 12/09/13.
  */
-public class DownloadInstallService extends IntentService {
+public class DownloadInstallService extends WakefulIntentService {
 
     public static final String PREF_UPDATE_DIR = "updateDir";
     public static final String PREF_PREV_UPDATE = "previousUpdateDir";
@@ -31,7 +33,7 @@ public class DownloadInstallService extends IntentService {
     }
 
     @Override
-    protected void onHandleIntent(Intent intent) {
+    protected void doWakefulWork(Intent intent) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         String prevUpdateDir = prefs.getString(PREF_UPDATE_DIR, null);
         String pendingUpdateDir = prefs.getString(DownloadCheckService.PREF_PENDING_UPDATE, null);
