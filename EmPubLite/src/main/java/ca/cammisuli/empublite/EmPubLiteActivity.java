@@ -46,6 +46,7 @@ public class EmPubLiteActivity extends SherlockFragmentActivity {
         pager = (ViewPager)findViewById(R.id.pager);
 
         getSupportActionBar().setHomeButtonEnabled(true);
+        UpdateReceiver.scheduleAlarm(this);
     }
 
     @Override
